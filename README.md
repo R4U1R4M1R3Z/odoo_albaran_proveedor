@@ -1,1 +1,3 @@
-# odoo_albaran_proveedor
+Este modulo contiene clases heredadas de los modelos stock.picking y stock.move en el framework Odoo. La clase StockPickingMod agrega un nuevo campo llamado "Albarán del proveedor" al modelo stock.picking. Por otro lado, la clase StockMoveMod contiene un método onchange llamado _onchange_price_unit, que actualiza el precio estándar de un producto y el precio de proveedor cuando cambia la unidad de precio en el movimiento de stock.
+
+Esta implementación es útil para personalizar y extender la funcionalidad predeterminada de Odoo en relación con los albaranes de proveedores y los movimientos de stock.
