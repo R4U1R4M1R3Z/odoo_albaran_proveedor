@@ -1,0 +1,1 @@
+# odoo_albaran_proveedor
